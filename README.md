@@ -1,4 +1,4 @@
-Creating a recommendation system for movies using NLP with a dataset containing users, movies, ratings, tags, genres, titles, and dates is certainly possible and can lead to a robust and nuanced system. Let's break down how you might approach this:
+Creating a recommendation system for movies using NLP to vectorize movies and user through tags and titles, with a dataset containing users, movies, ratings, tags, genres, titles, and dates to provide a robust and nuanced system. Let's break it down:
 
 # Movie Recommendation System with NLP
 
@@ -19,27 +19,23 @@ Creating a recommendation system for movies using NLP with a dataset containing 
 ## NLP Techniques
 1. Text Preprocessing
 2. Word Embeddings
-3. Sentiment Analysis
-4. Topic Modeling
+3. Movies Vectorization
+4. Users Vectorization
 
 ## Model Architecture
 1. Feature Engineering
 2. Neural Network
 3. Embedding Layers
-4. Attention Mechanism
 
 ## Evaluation Metrics
 1. Mean Squared Error (MSE)
-2. Precision@k
-3. Recall@k
-4. Normalized Discounted Cumulative Gain (NDCG)
+2. Precision
+3. Recall
 
-
-Now, let's dive into how you could build this system:
 
 1. Data Preparation:
    - Preprocess all text data (titles, tags, genres) using NLP techniques like tokenization, removing stop words, and lemmatization.
-   - Convert dates into useful features (e.g., year, month, day of week).
+   - Convert dates into a useful features: youth_rate, 0 being old, 1 being new
    - Encode categorical data like genres and users.
 
 2. Feature Engineering:
