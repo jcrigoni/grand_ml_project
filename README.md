@@ -35,16 +35,16 @@ Creating a recommendation system for movies using NLP to vectorize movies and us
 
 1. Data Preparation:
    - Preprocess all text data (titles, tags, genres) using NLP techniques like tokenization, removing stop words, and lemmatization.
-   - Convert dates into a useful features: youth_rate, 0 being old, 1 being new
+   - Convert dates into a useful features: youth_rate, 0 being the oldest, and 1 being being the most recent
    - Encode categorical data like genres and users.
 
 2. Feature Engineering:
-   - Use word embeddings (like Word2Vec or GloVe) to convert movie titles and tags into dense vector representations.
+   - Use word embeddings with Word2Vec to convert movie titles, genres and tags into dense vector representations.
    - Apply topic modeling (e.g., LDA) on tags and titles to extract latent topics.
    - Perform sentiment analysis on tags to get sentiment scores.
 
 3. Collaborative Filtering Component:
-   - Use matrix factorization or neural collaborative filtering to learn latent representations of users and movies based on ratings.
+   - Use matrix factorization to learn latent representations of users and movies based on ratings.
 
 4. Content-Based Filtering Component:
    - Create a content-based model using the NLP-processed features (embeddings of titles, tags, genres, sentiment scores, topics).
