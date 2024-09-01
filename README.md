@@ -68,6 +68,12 @@ To run this project locally, follow these steps:
 git clone https://github.com/jcrigoni/grand_ml_project
 cd Movie-Recommendation-System
 ```
+2. Install requirements:
+```sh
+pip install -r requirements.txt
+```
+> [!IMPORTANT]
+> LightFM needs OpenMp to run multithreading which could be difficult on Windows or Macos. In that case it's better to use the docker version of LightFM.
 ---
 
 ## Usage 
@@ -91,6 +97,7 @@ cd Movie-Recommendation-System
 │   ├── 🖼️banner.png
 │   └── 📁Exported_Models/
 │       └── 🗃️lightfm_recommendation_model.pkl
+├── 📄requirements.txt
 ├── 📄README.md
 ├── 📄Project-Documentation_Movie_Recommendation_System_Kallel_Rigoni_Rodner.pdf
 └── 📄.gitignore
