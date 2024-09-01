@@ -78,7 +78,7 @@ cd Movie-Recommendation-System
 > **TIP:** Some notebooks may take a while to run depending on the dataset size and complexity of the model. Please be patient!
 ---
 ## Project structure
-
+```sh
 📦 grand_ml_project/
 ├── 📁Data/
 │   ├── 🐍Dataframe_Filter.ipynb
@@ -93,7 +93,7 @@ cd Movie-Recommendation-System
 │       └── 🗃️lightfm_recommendation_model.pkl
 ├── 📄README.md
 └── 📄.gitignore
-
+```
 ---
 
 
