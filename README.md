@@ -1,5 +1,5 @@
 # 🎬 Movie Recommendation System with MovieLens Dataset
-![banner](banner.jpg)
+
 
 ## Table of Contents
 
@@ -92,6 +92,7 @@ cd Movie-Recommendation-System
 │   └── 📁Exported_Models/
 │       └── 🗃️lightfm_recommendation_model.pkl
 ├── 📄README.md
+├── 📄Project-Documentation_Movie_Recommendation_System_Kallel_Rigoni_Rodner.pdf
 └── 📄.gitignore
 ```
 ---
