@@ -57,7 +57,6 @@ The main objective of this project is to develop and evaluate different recommen
 
 ---
 
-## Installation
 
 > [!IMPORTANT]
 > The project was developed and tested on Python 3.11.6
@@ -68,18 +67,22 @@ To run this project locally, follow these steps:
 ```sh
 git clone https://github.com/jcrigoni/grand_ml_project
 cd Movie-Recommendation-System
-
+```
 ---
+
 ## Usage 
 
 1. **Run the Dataframe_Filter.ipynb** notebook to create the necessary CSV file and used movie.csv and rating.csv on https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset  .
 2. After running the first notebook, you can proceed to run the other notebooks to explore the data, build models, and generate recommendations.
 
 > **TIP:** Some notebooks may take a while to run depending on the dataset size and complexity of the model. Please be patient!
+---
+## Project structure
 
+📦grand_ml_project ┣ 📁Data/ ┃ ┣ 🐍Dataframe_Filter.ipynb ┃ ┣ 🐍Exploratory_Data_Analysis.ipynb ┃ ┗ 🐍NLP_Vectorizing.ipynb ┣ 📁Models/ ┃ ┣ 🐍New_Model_LightFM.ipynb ┃ ┣ 🐍Pearson_Correlation.ipynb ┃ ┣ 🐍SVD.ipynb ┃ ┣ 🖼️banner.png ┃ ┗ 📁Exported_Models/ ┃ ┗ 🗃️lightfm_recommendation_model.pkl ┣ 📄README.md ┗ 📄.gitignore
 ---
 
-## Collaborators
+## Colaborators
 
 This project was developed by a collaborative team. Each member played a crucial role in the research, development, and analysis:
 
@@ -88,8 +91,7 @@ This project was developed by a collaborative team. Each member played a crucial
 - **Simon Pierre Rodner**
 ---
 
-📦grand_ml_project ┣ 📁Data/ ┃ ┣ 🐍Dataframe_Filter.ipynb ┃ ┣ 🐍Exploratory_Data_Analysis.ipynb ┃ ┗ 🐍NLP_Vectorizing.ipynb ┣ 📁Models/ ┃ ┣ 🐍New_Model_LightFM.ipynb ┃ ┣ 🐍Pearson_Correlation.ipynb ┃ ┣ 🐍SVD.ipynb ┃ ┣ 🖼️banner.png ┃ ┗ 📁Exported_Models/ ┃ ┗ 🗃️lightfm_recommendation_model.pkl ┣ 📄README.md ┗ 📄.gitignore
----
+
 
 ## License
 This project is under the **CC BY-NC 4.0 License**. For more information, refer to the license file. <br/>
