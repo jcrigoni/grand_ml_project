@@ -79,8 +79,23 @@ cd Movie-Recommendation-System
 ---
 ## Project structure
 
-📦grand_ml_project ┣ 📁Data/ ┃ ┣ 🐍Dataframe_Filter.ipynb ┃ ┣ 🐍Exploratory_Data_Analysis.ipynb ┃ ┗ 🐍NLP_Vectorizing.ipynb ┣ 📁Models/ ┃ ┣ 🐍New_Model_LightFM.ipynb ┃ ┣ 🐍Pearson_Correlation.ipynb ┃ ┣ 🐍SVD.ipynb ┃ ┣ 🖼️banner.png ┃ ┗ 📁Exported_Models/ ┃ ┗ 🗃️lightfm_recommendation_model.pkl ┣ 📄README.md ┗ 📄.gitignore
+📦 grand_ml_project/
+├── 📁Data/
+│   ├── 🐍Dataframe_Filter.ipynb
+│   ├── 🐍Exploratory_Data_Analysis.ipynb
+│   └── 🐍NLP_Vectorizing.ipynb
+├── 📁Models/
+│   ├── 🐍New_Model_LightFM.ipynb
+│   ├── 🐍Pearson_Correlation.ipynb
+│   ├── 🐍SVD.ipynb
+│   ├── 🖼️banner.png
+│   └── 📁Exported_Models/
+│       └── 🗃️lightfm_recommendation_model.pkl
+├── 📄README.md
+└── 📄.gitignore
+
 ---
+
 
 ## Colaborators
 
